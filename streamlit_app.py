@@ -1,6 +1,6 @@
 import streamlit as st
- from joblib import load
- import pandas as pd
+from joblib import load
+import pandas as pd
 
  # Load your logistic regression model and CountVectorizer
  lr_loaded = load('logistic_regression_model.joblib')
